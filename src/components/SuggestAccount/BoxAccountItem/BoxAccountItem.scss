@@ -1,0 +1,57 @@
+.wrapper {
+    max-width: 300px;
+    padding-top: 8px;
+    max-height: 400px;
+    background: rgb(255, 255, 255);
+    box-shadow: rgb(0 0 0 / 12%) 0px 2px 12px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.box-width {
+    width: 300px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    &.btn-header {
+        width: 200px;
+        height: 64px;
+    }
+}
+
+.avatar {
+    border-radius: 50%;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.item-info {
+    font-size: 1.4rem;
+    margin-left: 12px;
+    flex: 1;
+}
+
+.nickname {
+    font-weight: 700;
+}
+
+.name {
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: rgba(22, 24, 35, 0.8);
+}
+.footer{
+    padding: 12px;
+}
+
+.title-f{
+    margin-left: 12px;
+    color: rgba(22, 24, 35, 0.8);
+    font-size: 1.4rem;
+}
